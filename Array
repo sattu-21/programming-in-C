@@ -1,0 +1,46 @@
+// Declaring and printing an array...
+#include <stdio.h>
+int main (){
+int numbers [5] = {10, 20, 30, 40, 50};
+
+printf("%d\n", numbers[0]);
+printf("%d\n", numbers[1]);
+printf("%d\n", numbers[2]);
+printf("%d\n", numbers[3]);
+printf("%d\n", numbers[4]);
+return 0;
+}
+
+
+//Using for loop with an array...
+#include <stdio.h>
+int main (){
+int numbers [5] = {10, 20, 30, 40, 50};
+for (int i = 0; i < 5; i++) {
+printf("%d\n", numbers[i]);
+}
+return 0;
+}
+
+
+//Taking array elements as input from the user
+#include <stdio.h>
+int main (){
+int numbers [5];
+for (int i = 0; i < 5; i++){
+printf("Enter the number %d : ", i+1);
+scanf("%d", &numbers[i]);
+}
+printf("Your numbers are :\n");
+for (int i = 0; i < 5; i++){
+printf("%d\n", numbers[i]);
+}
+return 0;
+}
+
+
+
+
+
+
+
