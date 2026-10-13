@@ -1,1 +1,15 @@
+//WAP to check a student is failed or passed 
 
+#include <stdio.h>
+int main(){
+    int score;
+    printf("Enter your score:\n");
+    scanf("%d", &score);
+    if (score >= 50){
+        printf("Your are passed!\n");
+    }else {
+        printf("You are failed!\n");
+    }
+    return 0;
+
+}
