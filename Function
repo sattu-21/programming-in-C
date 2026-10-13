@@ -1,1 +1,10 @@
-
+//My first function
+#include <stdio.h>
+void greet(){
+printf("Hello bro!!");
+}
+int main (){
+greet ();
+greet ();
+return 0;
+}
