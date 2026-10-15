@@ -8,3 +8,17 @@ greet ();
 greet ();
 return 0;
 }
+
+//Sqaure using function
+#include <stdio.h>
+int sqaure(int n) {
+return n * n;
+}
+int main (){
+int num = 5;
+
+printf("Number = %d\n", num);
+printf("Sqaure = %d\n", square(num));
+
+return 0;
+}
