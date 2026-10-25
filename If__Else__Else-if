@@ -29,7 +29,7 @@ return 0;
 }
 
 
-//WAP to find the type of triangle
+//WAP to find the type of triangle by using if and else
 #include <stdio.h>
 
 int main()
