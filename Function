@@ -1,4 +1,4 @@
-//My first function
+//Print hello world with functions 
 #include <stdio.h>
 void greet(){
 printf("Hello bro!!");
