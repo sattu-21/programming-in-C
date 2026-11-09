@@ -59,3 +59,26 @@ int main()
 
     return 0;
 }
+
+
+// Wap to calculate electricity bill
+
+#include <stdio.h>
+int main (){
+    int unit, bills;
+
+printf("Enter unit consumed :");
+scanf("%d", &unit);
+if (unit <= 100 ){
+    bills = unit * 2;
+
+} else if (unit > 100 && unit <= 200){
+    bills = unit * 3;
+
+}else{
+    bills = unit * 5;
+
+}
+printf("The bill is Rs. %d\n",  bills);
+return 0;
+}
