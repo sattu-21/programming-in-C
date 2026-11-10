@@ -82,3 +82,57 @@ if (unit <= 100 ){
 printf("The bill is Rs. %d\n",  bills);
 return 0;
 }
+
+
+//Wap to check grade using if-else and else if 
+#include <stdio.h>
+int main (){
+int marks, grades;
+printf("Enter your marks : \n");
+scanf("%d", &marks);
+
+if (marks >= 90 && marks <= 100){
+printf("GRADE = A+");
+}
+else if(marks >= 80 && marks <= 89){
+printf("GRADE = B");
+}
+else if (marks >= 70 && marks <= 79){
+printf("GRADE = C");
+}
+else if (marks >= 60 && marks <= 69){
+printf(GRADE = D);
+} else {
+printf("FAILED");
+}
+
+printf("Your grade is : %d\n", grade);
+return 0;
+}
+
+//WAP to calculate two no.s and an operator given by user
+#include <stdio.h>
+int main () {
+int number,a , b, result;
+char op;
+printf("Enter a : ");
+scanf("%d", &a);
+printf("Enter b : ");
+scanf("%d", &b);
+printf("Enter op : (+, -, *, /, %) ");
+scanf(" %c", &op);
+if (op == '+'){
+printf("Result = %d\n", a + b);
+} else if (op == '-'){
+printf("Result = %d\n", a - b);
+} else if (op == '*'){
+printf("Result = %d\n", a * b);
+} else if (op == '/'){
+printf("Result = %d\n", a / b);
+} else if (op == '%'){
+printf("Result = %d\n", a % b);
+} else {
+printf("Invalid input");
+}
+return 0;
+}
