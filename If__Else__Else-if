@@ -136,3 +136,28 @@ printf("Invalid input");
 }
 return 0;
 }
+
+
+// WAP to create an ATM withdrawal system 
+#include <stdio.h>
+int main (){
+int balance = 10000;
+int amount;
+printf("Enter withdrawal amount : ");
+scanf("%d", &amount);
+if (amount > 0 && amount % 100 == 0){
+if (amount <= balance){
+balance = balance - amount;
+}
+printf("Withdrawal Successful\n");
+printf("Remaining Balance is Rs. %d\n", balance);
+} else if (amount > balance){
+printf("Insufficient Balance\n");
+} else if (amount < 0){
+printf("Invalid withdrawal amount\n");
+printf("Try again\n");
+}else{
+printf("Enter amount in multiples of 100");
+}
+return 0;
+}
